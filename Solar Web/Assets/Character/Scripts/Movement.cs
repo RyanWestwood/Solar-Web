@@ -23,6 +23,7 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             anim.SetInteger("condition", 1); //if W key is pressed then the condition changes from 0 to 1 and the character will move forward in world space whilst the walk animation is played.
+            transform.position += transform.forward * walkSpeed * Time.deltaTime;
         }
         if (Input.GetKeyUp(KeyCode.W))
         {
@@ -43,12 +44,12 @@ public class Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.Space))
         {
             anim.SetInteger("condition", 3);  //if space key is pressed then the condition changes from 0 to 3 and the character will jump. note: will have to hold space key for the full jump animation to play out.
-
+            //GetComponent<Rigidbody>().AddForce(Vector3.up * 1000);
         }
-        if (Input.GetKeyUp(KeyCode.Space))
-        {
-            anim.SetInteger("condition", 0); //if space key is no longer being pressed then the idle animation plays.
-        }
+      //  if (Input.GetKeyUp(KeyCode.Space))
+     //   {
+     //       anim.SetInteger("condition", 0); //if space key is no longer being pressed then the idle animation plays.
+   //     }
 
     }
 }
