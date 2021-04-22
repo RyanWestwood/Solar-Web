@@ -30,6 +30,35 @@ public class Movement : MonoBehaviour
             anim.SetInteger("condition", 0); //if W is no longer being pressed then the idle animation plays.
         }
 
+        if (Input.GetKey(KeyCode.S))
+        {
+            anim.SetInteger("condition", 1);
+            transform.position -= transform.forward * walkSpeed * Time.deltaTime;
+        }
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            anim.SetInteger("condition", 0);
+        }
+
+        if (Input.GetKey(KeyCode.A))
+        {
+            anim.SetInteger("condition", 1);
+            transform.position -= transform.right * walkSpeed * Time.deltaTime;
+        }
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            anim.SetInteger("condition", 0);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            anim.SetInteger("condition", 1);
+            transform.position += transform.right * walkSpeed * Time.deltaTime;
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            anim.SetInteger("condition", 0);
+        }
+
         if (Input.GetKey(KeyCode.Q))
         {
             anim.SetInteger("condition", 2); //if W key is pressed then the condition changes from 0 to 2 and the character will run forward in world space whilst the run animation is played.
