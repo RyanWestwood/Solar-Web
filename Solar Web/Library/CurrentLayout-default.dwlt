@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 41
+  controlID: 62
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 380
     height: 1307
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 2560
     height: 1357
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 42
+  controlID: 120
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 43
+  controlID: 121
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -403,21 +403,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/Environment/models
+    - Assets/Models
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models/Environment/models
+  - Assets/Models
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\RyanW\Documents\Work\GitHub\Year-2\Solar-Web\Solar
     Web
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8a4d0000
-    m_LastClickedID: 19850
-    m_ExpandedIDs: 00000000164b0000184b00001a4b00001c4b00001e4b0000204b0000224b0000444b000000ca9a3b
+    scrollPos: {x: 0, y: 26}
+    m_SelectedIDs: 1c4b0000
+    m_LastClickedID: 19228
+    m_ExpandedIDs: 00000000144b0000164b0000184b00001a4b00001c4b00001e4b0000204b0000c24b00001a72000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -445,7 +445,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000164b0000184b00001a4b00001c4b00001e4b0000204b0000224b0000
+    m_ExpandedIDs: 00000000144b0000164b0000184b00001a4b00001c4b00001e4b0000204b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -570,7 +570,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 44f6ffff6af9ffffb4f9fffff0f9ffff4cfbffffc6360000
+      m_ExpandedIDs: 88f0ffff98f6ffffc2f6ffffe8f6fffffcf6ffff0af7ffff7efaffff4cfbffffc8360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -630,9 +630,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 11.901604, y: 6.9431896, z: 38.989594}
+    m_Target: {x: 12.45, y: 4.168261, z: 57.85}
     speed: 2
-    m_Value: {x: 11.901604, y: 6.9431896, z: 38.989594}
+    m_Value: {x: 12.45, y: 4.168261, z: 57.85}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -678,13 +678,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.023702618, y: -0.82781935, z: 0.035032842, w: 0.55942804}
+    m_Target: {x: 0.2324698, y: -0.6358732, z: 0.20955236, w: 0.7055537}
     speed: 2
-    m_Value: {x: 0.023649646, y: -0.8286436, z: 0.035067767, w: 0.55817634}
+    m_Value: {x: 0.23214416, y: -0.63690054, z: 0.20989084, w: 0.70456564}
   m_Size:
-    m_Target: 9.477671
+    m_Target: 13.361559
     speed: 2
-    m_Value: 9.477671
+    m_Value: 12.7861805
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -770,7 +770,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
