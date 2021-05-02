@@ -18,17 +18,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: glass
-    second: {fileID: 2100000, guid: 6cf60e22c617a124e828417f8a60de35, type: 2}
+    second: {fileID: 2100000, guid: 8bd1455e72b647e44b5fe50ec62012ff, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: grass
     second: {fileID: 2100000, guid: 489071794f591044384816c7417140e6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert11
-    second: {fileID: 2100000, guid: 44d468461b53d374d8b1f4c246137ec0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
