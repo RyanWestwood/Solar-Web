@@ -21,14 +21,10 @@ public class GameplayUI : MonoBehaviour
 
     //  DEBUGGING
     private float size = 100;
-    private int bckpck = 5;
-    private int bltcnt = 12;
 
     private void Start()
     {
         settingMenu.SetActive(false);
-        BulletCount(bltcnt);
-        BackpackCount(bckpck);
     }
 
     private void Update()
@@ -43,17 +39,6 @@ public class GameplayUI : MonoBehaviour
         //  DEBUGGING
         size -= (size - Time.deltaTime) * 0.001F;
         Health((int)size);
-
-        if (Input.GetKeyUp(KeyCode.U))
-        {
-            bltcnt--;
-            BulletCount(bltcnt);
-        }
-        if (Input.GetKeyUp(KeyCode.I))
-        {
-            bckpck--;
-            BackpackCount(bckpck);
-        }
     }
 
     //  Settings

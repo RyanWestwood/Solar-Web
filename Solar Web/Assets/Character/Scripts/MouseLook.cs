@@ -24,7 +24,7 @@ public class MouseLook : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime; // gets input from mouse movement on the y axis.
 
         xRotation -= mouseY; // decrease xrotation based on mouse movement on the y axis
-        xRotation = Mathf.Clamp(xRotation, -90f, 90f); // mathf.clamp allows the user to set min and max rotation of mouse movement.
+        xRotation = Mathf.Clamp(xRotation, -45, 37); // mathf.clamp allows the user to set min and max rotation of mouse movement.
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f); //allows rotation in the x axis, Quaternion is responsible for rotation in unity.
         player.Rotate(Vector3.up * mouseX); // player rotates in the x axis when mouse movement on the x axis occurs.
